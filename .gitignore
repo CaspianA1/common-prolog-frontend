@@ -1,1 +1,6 @@
 scrap_code.txt
+dist/front_end
+dist/lex.yy.c
+dist/y.output
+dist/y.tab.c
+dist/y.tab.h
