@@ -15,3 +15,6 @@ because each versions' supported operators may vary, and this aims to be a commo
 
 ### Dependencies
 - lex, yacc, and lldb (for debugging when developing the tool further).
+
+### Note:
+- Before building for the first time, you will need to create a `dist` directory.
