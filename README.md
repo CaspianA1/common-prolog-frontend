@@ -6,7 +6,7 @@ A lex and yacc-based front-end for Prolog.
 - Using `cpf` for your own project should be self-explanatory from the Makefile.
 
 ### Supported operators:
-`\\+`, `^`, `+`, `-`, `*`, `/`, `<`, `<=`, `>`, `>=`,
+`\+`, `^`, `+`, `-`, `*`, `/`, `<`, `<=`, `>`, `>=`,
 `(`, `)`, `[`, `]`, `|`, `,`, `;`, `:-`, `.`, `is`, `=`
 - The rest included in most Prolog distributions should not be too hard to add. I am not including them here
 because each versions' supported operators may vary, and this aims to be a common base for any Prolog distribution.
