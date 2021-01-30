@@ -14,7 +14,6 @@ find_e(Accuracy, Sum, Result) :-
 	Inverse_Factorial is 1 / Next_Factorial,
 	New_Sum is Sum + Inverse_Factorial,
 	Dec_Accuracy is Accuracy - 1,
-	find_e(Dec_Accuracy, New_Sum, Result). % Variables in a functor must be pre-deduced.
+	find_e(Dec_Accuracy, New_Sum, Result)
 	
 % find_e(10, 0, X).
-% this test fails for now
